@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</head>
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    label {
+        color: #333;
+    }
+
+    .btn-send {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        width: 80%;
+        margin-left: 3px;
+    }
+
+    .help-block.with-errors {
+        color: #ff5050;
+        margin-top: 5px;
+
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .fast {
+        background-color: #71fdce;
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    }
+</style>
+
+<body>
+    <div class="fast">
+        <h1 style='color:white;'><b>Approved</b></h1>
+        <br>
+        <h4>Reg No : </h4> ${data['reg_no']}<br><br><br>
+        <h4>Name : </h4> ${data['from']}<br><br><br>
+        <h4>To : </h4> ${data['to']}<br><br><br>
+        <h4>Address : </h4> ${data['address']}<br><br><br>
+        <h4>Mobile Number : </h4> ${data['mobile_no']}<br><br><br>
+</body>
+
+</html>
